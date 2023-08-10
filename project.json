@@ -1,0 +1,19 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaCartWebservicesPlugin",
+	"extensionName": "Phoca Cart Webservices Plugin",
+	"projectInitials" : "PC",				  
+	"description": "Phoca Cart Webservices Plugin - Enables Joomla Webservices for Phoca Cart",
+	"projectUrl": "https://www.phoca.cz/phocacart-extensions",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/115-phoca-cart",
+	"projectMainComponent": "Phoca Cart",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocacart-joomla-ecommerce",
+	"projectDemo" : {
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/"
+	},
+	"projectColor": "#129ed9",
+	"projectBranch": "main"
+}
