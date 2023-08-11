@@ -1,21 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="plugin" group="webservices" method="upgrade">
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="webservices" method="upgrade" version="4.0">
 	<name>plg_webservices_phocacart</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>2023-08</creationDate>
-	<copyright>Jan Pavelka</copyright>
-	<license>GNU/GPL</license>
+	<creationDate>11/08/2023</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
-	<version>4.1.0</version>
-	<description>PLG_WEBSERVICES_PHOCACART_XML_DESCRIPTION</description>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>4.0.0</version>
+	<description>PLG_WEBSERVICES_PHOCACART_DESCRIPTION</description>
+	<projectName>PhocaCartWebservicesPlugin</projectName>
 
 	<files>
 		<filename plugin="phocacart">phocacart.php</filename>
 	</files>
 
 	<languages>
-		<language tag="en-GB">language/en-GB/plg_webservices_phocacart.ini</language>
-		<language tag="en-GB">language/en-GB/plg_webservices_phocacart.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_webservices_phocacart.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_webservices_phocacart.sys.ini</language>
 	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_webservices_phocacart.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_webservices_phocacart.sys.ini</language>
+		</languages>
+	</administration>
+	
+	
+
+	<updateservers>
+		<server type="extension" name="PLG_WEBSERVICES_PHOCACART" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartWebservicesPlugin/main/manifest.xml]]></server>
+	</updateservers>
 </extension>
