@@ -23,29 +23,62 @@ use Joomla\Router\Route;
  */
 class PlgWebservicesPhocaCart extends CMSPlugin
 {
-    /**
-     * Load the language file on instantiation.
-     *
-     * @var    boolean
-     * @since  4.0.0
-     */
-    protected $autoloadLanguage = true;
+	/**
+	 * Load the language file on instantiation.
+	 *
+	 * @var    boolean
+	 * @since  4.0.0
+	 */
+	protected $autoloadLanguage = true;
 
-    /**
-     * Registers com_banners's API's routes in the application
-     *
-     * @param   ApiRouter  &$router  The API Routing object
-     *
-     * @return  void
-     *
-     * @since   4.0.0
-     */
-    public function onBeforeApiRoute(&$router)
-    {
-        $router->createCRUDRoutes(
-            'v1/phocacart/products',
-            'products',
-            ['component' => 'com_phocacart']
-        );
-    }
+	/**
+	 * Registers com_banners's API's routes in the application
+	 *
+	 * @param   ApiRouter  &$router  The API Routing object
+	 *
+	 * @return  void
+	 *
+	 * @since   4.0.0
+	 */
+	public function onBeforeApiRoute(&$router)
+	{
+		$router->addRoutes([
+			new Route(['GET'], 'v1/phocacart/status', 'status' . '.displayStatus', [], [
+				'component' => 'com_phocacart',
+				'public' => false,
+			]),
+		]);
+
+		$router->createCRUDRoutes(
+			'v1/phocacart/products',
+			'products',
+			['component' => 'com_phocacart']
+		);
+
+		$router->addRoutes([
+			new Route(['PATCH'], 'v1/phocacart/products', 'products' . '.editMulti', [], [
+				'component' => 'com_phocacart',
+				'public' => false,
+			]),
+		]);
+
+		$router->addRoutes([
+			new Route(['POST'], 'v1/phocacart/products/stock', 'products' . '.updateStock', [], [
+				'component' => 'com_phocacart',
+				'public' => false,
+			]),
+		]);
+
+		$router->createCRUDRoutes(
+			'v1/phocacart/products/variants',
+			'productsvariants',
+			['component' => 'com_phocacart']
+		);
+
+		$router->createCRUDRoutes(
+			'v1/phocacart/orders',
+			'orders',
+			['component' => 'com_phocacart']
+		);
+	}
 }
