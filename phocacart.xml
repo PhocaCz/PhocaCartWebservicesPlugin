@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="plugin" group="webservices" method="upgrade" version="4.0">
+<extension type="plugin" group="webservices" method="upgrade" version="5.0">
 	<name>plg_webservices_phocacart</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>11/08/2023</creationDate>
+	<creationDate>12/11/2024</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>4.0.0</version>
+	<version>5.0.0</version>
 	<description>PLG_WEBSERVICES_PHOCACART_DESCRIPTION</description>
 	<projectName>PhocaCartWebservicesPlugin</projectName>
 
