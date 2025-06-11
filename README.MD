@@ -52,13 +52,17 @@ Phoca Cart Webservices Plugin - Enables Joomla Webservices for Phoca Cart
 
 
 
+## Version (Joomla! 3.x)
+
+3.5.8
+
 ## Version (Joomla! 4.x)
 
-4.0.0
+4.0.11
 
 ## Version (Joomla! 5.x)
 
-5.0.0
+5.1.1
 
 
 

@@ -6,10 +6,30 @@
 		<element>phocacart</element>
 		<folder>webservices</folder>
 		<type>plugin</type>
-		<version>4.0.0</version>
-		<infourl title="Phoca Cart Webservices Plugin 4.0.0">https://www.phoca.cz/</infourl>
+		<version>3.5.8</version>
+		<infourl title="Phoca Cart Webservices Plugin 3.5.8">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartWebservicesPlugin/releases/download/4.0.0/plg_webservices_phocacart_v4.0.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartWebservicesPlugin/releases/download/3.5.8/plg_webservices_phocacart_v3.5.8.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="3.([89]|10)"/>
+		<client>site</client>
+	</update>
+	<update>
+		<name><![CDATA[ Phoca Cart Webservices Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart Webservices Plugin - Enables Joomla Webservices for Phoca Cart ]]></description>
+		<element>phocacart</element>
+		<folder>webservices</folder>
+		<type>plugin</type>
+		<version>4.0.11</version>
+		<infourl title="Phoca Cart Webservices Plugin 4.0.11">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartWebservicesPlugin/releases/download/4.0.11/plg_webservices_phocacart_v4.0.11.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -26,19 +46,19 @@
 		<element>phocacart</element>
 		<folder>webservices</folder>
 		<type>plugin</type>
-		<version>5.0.0</version>
-		<infourl title="Phoca Cart Webservices Plugin 5.0.0">https://www.phoca.cz/</infourl>
+		<version>5.1.1</version>
+		<infourl title="Phoca Cart Webservices Plugin 5.1.1">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartWebservicesPlugin/releases/download/5.0.0/plg_webservices_phocacart_v5.0.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartWebservicesPlugin/releases/download/5.1.1/plg_webservices_phocacart_v5.1.1.zip</downloadurl>
 		</downloads>
-		<sha512>3896d1a87e11e3ed35de9ea0ca84e9ed42433da6110cdd248196bce887c0675027cad9ac77c49ca42b358ac609cbfb4860826d76e6543c5f84fd2294824b9734</sha512>
+		<sha512>2bad1c5d2ee72294ac86d8f3d1c5f3fcc2072970c7ffcf846cfd31618ef76aaf4ed4b0dc3c7e1bb9616fdda771c8fb803320409dde9dd8cf3241fa93a20a56fd</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="(4|5)\.*"/>
+		<targetplatform name="joomla" version="5\.*"/>
 		<client>site</client>
 	</update>
 </updates>
